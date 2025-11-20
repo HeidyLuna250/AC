@@ -6,10 +6,10 @@ export default ({ config }) => ({
   slug: "AC",
   version: "1.0.0",
   orientation: "portrait",
-  icon: "./assets/icon.png",
+  icon: "./assets/Mouse_Compuser.png",
   userInterfaceStyle: "light",
   splash: {
-    image: "./assets/splash-icon.png",
+    image: "./assets/Mouse_Compuser.png",
     resizeMode: "contain",
     backgroundColor: "#ffffff"
   },
@@ -18,7 +18,7 @@ export default ({ config }) => ({
   },
   android: {
     adaptiveIcon: {
-      foregroundImage: "./assets/adaptive-icon.png",
+      foregroundImage: "./assets/Mouse_Compuser.png",
       backgroundColor: "#ffffff"
     },
     package: "com.compuser.miapp",
@@ -26,7 +26,7 @@ export default ({ config }) => ({
     edgeToEdgeEnabled: true
   },
   web: {
-    favicon: "./assets/favicon.png"
+    favicon: "./assets/Mouse_Compuser.png"
   },
   extra: {
     FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
