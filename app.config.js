@@ -3,7 +3,7 @@ import "dotenv/config";
 export default ({ config }) => ({
   ...config,
   android: {
-    package: "AC", 
+    package: "com.compuser.miapp"
   },
 
   extra: {
