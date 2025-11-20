@@ -2,6 +2,10 @@ import "dotenv/config";
 
 export default ({ config }) => ({
   ...config,
+  android: {
+    package: "AC", 
+  },
+
   extra: {
     FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
     FIREBASE_AUTH_DOMAIN: process.env.FIREBASE_AUTH_DOMAIN,
