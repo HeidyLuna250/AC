@@ -2,32 +2,6 @@ import "dotenv/config";
 
 export default ({ config }) => ({
   ...config,
-  name: "AC",
-  slug: "AC",
-  version: "1.0.0",
-  orientation: "portrait",
-  icon: "./assets/Mouse_Compuser.png",
-  userInterfaceStyle: "light",
-  splash: {
-    image: "./assets/Mouse_Compuser.png",
-    resizeMode: "contain",
-    backgroundColor: "#ffffff"
-  },
-  ios: {
-    supportsTablet: true
-  },
-  android: {
-    adaptiveIcon: {
-      foregroundImage: "./assets/Mouse_Compuser.png",
-      backgroundColor: "#ffffff"
-    },
-    package: "com.compuser.miapp",
-    googleServicesFile: "./google-services.json",
-    edgeToEdgeEnabled: true
-  },
-  web: {
-    favicon: "./assets/Mouse_Compuser.png"
-  },
   extra: {
     FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
     FIREBASE_AUTH_DOMAIN: process.env.FIREBASE_AUTH_DOMAIN,
