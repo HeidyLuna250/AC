@@ -4,11 +4,11 @@
     "slug": "AC",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Mouse_Compuser.png",
+    "icon": "./assets/LogoAC2.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/Mouse_Compuser.png",
+      "image": "./assets/LogoAC2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,14 +17,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Mouse_Compuser.png",
+        "foregroundImage": "./assets/LogoAC2.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.compuser.miapp"
     },
     "web": {
-      "favicon": "./assets/Mouse_Compuser.png"
+      "favicon": "./assets/LogoAC2.png"
     },
     "extra": {
       "FIREBASE_API_KEY": "AIzaSyBqQJDFURJIO0VWuxhGu4XMGv7EYIsXtMg",
